@@ -14,7 +14,7 @@ default_args = {
 dag1 = DAG(
     'show_full_dag',
     default_args=default_args,
-    start_date=datetime(2020, 1, 1),
+    start_date=datetime(2025, 9, 6),
     schedule_interval=timedelta(2)
 )
 t1 = BashOperator(

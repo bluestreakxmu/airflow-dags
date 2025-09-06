@@ -13,7 +13,7 @@ default_args = {
 }
 dag1 = DAG(
     'show_what_is_dag',
-    start_date=datetime(2020, 1, 1),
+    start_date=datetime(2025, 9, 6),
     default_args=default_args,
     schedule_interval=timedelta(days=1)
 )
